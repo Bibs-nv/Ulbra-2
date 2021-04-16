@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+    background-color:rgb(129, 127, 255):
+    }
+h1{
+    border: 2px solid #000
+}
+p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#highlight{
+    color: rgb(0, 0, 255);
+    font-size: large;
+}
+.colorRed{
+    color:rgb(220, 20, 60)
+}

@@ -1,0 +1,185 @@
+*{
+    margin: 0 auto;
+}
+
+table, td, th{
+    border-bottom: solid 1px;
+    border-collapse: collapse;
+    padding: 7px;
+}
+
+th{
+    color: darkgrey;
+    font-size: 14px;
+    text-align: center;
+    font-weight: normal;
+}
+
+td{
+    text-align: center;
+    font-size: 14px;
+    
+}
+
+body{
+    background-color: lightgray;
+}
+
+#cabecalho{
+    background-color: #0c1650;
+    min-height: 100px;
+    padding: 20px 50px 10px 50px;
+}
+
+#titulocabecalho{
+    color: #ffffff;
+    font-size: 16px;
+    float: left;
+    min-width: 50%;
+}
+
+#classificacao{
+    width: 60%;
+    
+    padding: 20px 
+}
+
+#goleadores{
+    width: 60%;
+    
+    padding: 20px 
+}
+
+#jogos{
+    width: 60%;
+    margin-bottom: 50px;
+    
+}
+
+#tableclassificacao{
+    width: 100%;
+    background-color: #ffffff;
+
+}
+
+#tablegoleadores{
+    width: 100%;
+    background-color: #ffffff;
+}
+
+#tablegoleadores td{
+    padding: 20px 10px 10px 20px;
+}
+
+#tablejogos{
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.tudo{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.linha{
+    clear: both;
+}
+
+.h2titulosessao{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.h3titulogrupo{
+    font-size: 14px;
+    padding: 5px;
+}
+
+.tdnomeclube{
+    text-align: left;
+
+}
+
+.thnomeclube{
+    width: 50%;
+}
+
+.tdposicaoclube{
+    width: 4%;
+
+}
+
+.thcincoultimas{
+    width: 20%;
+}
+
+.tdimgclube{
+    width: 5%;
+}
+
+.tdultimascinco{
+    text-align: center;
+    
+}
+
+.imgclube{
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.tdjogador{
+    width: 90%;
+    text-align: left;
+}
+
+.vitoria{
+    background-image: url('../img/v.svg');
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    float: left;
+    margin-right: 5px;
+
+}
+
+.derrota{
+    background-image: url('../img/d.svg');
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    float: left;
+    margin-right: 5px;
+}
+
+.empate{
+    background-image: url('../img/e.svg');
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    float: left;
+    margin-right: 5px;
+}
+
+.spannomeclube{
+    color: darkgray;
+    font-size: 12px;
+}
+
+.tablejogo{
+    width: 100%;
+}
+
+.tablejogo .thtablejogo{
+    font-size: 12px;
+    color: darkgray;
+    text-align: left;
+}
+
+.tablejogo .tdclube{
+    text-align: left;
+    width: 80%;
+}
+
+.tablejogo .tdhorario{
+    text-align: center;
+    font: 10px;
+}

@@ -1,0 +1,61 @@
+body{
+    display: flexbox;
+    background-color:#fff
+}
+
+h1{
+    text-align: center;
+    border: 2px solid rgb(154, 103, 201);
+    background-color: rgb(154, 103, 201);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: solid purple;
+}
+h3{
+    text-align: left ;
+    border: 2px solid rgb(154, 103, 201);
+    background-color: rgb(154, 103, 201);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: solid purple;
+}
+
+#titulo4{
+    
+}
+#titulo7{
+    float: right;
+    width: 50%;
+    clear: both;
+    clear: left;
+}
+
+#me{
+    float: left;
+    clear: both;
+}
+
+.tudo{
+    margin-left: 250px;
+    margin-top: 30px;
+    margin-right: 250px;
+    margin-bottom: 30px;
+       
+}
+.esquerda{
+    float: left;
+    clear: both;
+    width: 50%;
+    clear: both;
+}
+
+.direita{
+    float: left;
+    width: 70%;
+    
+}
+
+.unica{
+    clear: both;
+}
+

@@ -1,0 +1,133 @@
+*{
+    margin: 0 auto;
+}
+
+table, td, th{
+    border-bottom: solid 1px;
+    border-collapse: collapse;
+    padding: 7px;
+}
+
+th{
+    color: darkgrey;
+    font-size: 14px;
+    text-align: center;
+    font-weight: normal;
+}
+
+td{
+    text-align: center;
+    font-size: 14px;
+}
+
+body{
+    background-color: lightgray;
+}
+
+#cabecalho{
+    background-color: #0c1650;
+    min-height: 100px;
+    padding: 20px 50px 10px 50px;
+}
+
+#titulocabecalho{
+    color: #ffffff;
+    font-size: 16px;
+    float: left;
+    min-width: 50%;
+}
+
+#classificacao{
+    width: 60%;
+    
+    padding: 20px 
+}
+
+#goleadores{
+    width: 60%;
+    
+    padding: 20px 
+}
+
+#partidas{
+    width: 60%;
+    
+    padding: 20px 
+}
+
+#tableclassificacao{
+    width: 100%;
+    background-color: #ffffff;
+
+}
+
+#tablegoleadores{
+    width: 100%;
+}
+
+#tablepartidas{
+    width: 100%;
+}
+
+.tudo{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.linha{
+    clear: both;
+}
+
+.h2titulosessao{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.h3titulogrupo{
+    font-size: 14px;
+    padding: 5px;
+}
+
+.tdnomeclube{
+    text-align: left;
+
+}
+
+.thnomeclube{
+    width: 50%;
+}
+
+.tdposicaoclube{
+    width: 4%;
+
+}
+
+.thcincoultimas{
+    width: 20%;
+}
+
+.tdimgclube{
+    width: 5%;
+}
+
+.imgclube{
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.vitoria{
+    background-image: url('../code_aula_6/img/v.svg');
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    float: left;
+    margin-right: 5px;
+
+}
+
+.derrota{
+    background-image: url('../code_aula_6/img/d.svg');
+}
+
+.empate{
+    background-image: url('../code_aula_6/img/e.svg');
+}
